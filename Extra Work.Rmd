@@ -1,0 +1,17 @@
+---
+title: "NewFileforInitialRepository"
+author: "Sabrina Pawlak"
+date: "3/10/2022"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Markdown
+
+```{R}
+x = c(3,5,7,6,5,5,4,3,2,8,7,5,6)
+hist(x)
+```
